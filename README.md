@@ -1,4 +1,4 @@
-# npx easytag
+# easytag
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/macchie/easytag?style=for-the-badge) ![npm (scoped)](https://img.shields.io/npm/v/@macchie7/easytag?style=for-the-badge) ![npm](https://img.shields.io/npm/dw/@macchie7/easytag?style=for-the-badge)
 
@@ -9,14 +9,14 @@ Easy NPM Versioning & Tag Tool
 Inside your NPM project execute:
 
 ```bash
-$ npx easytag --init
+$ npx @macchie7/easytag --init
 ```
 
-`npx-easytag` replaces your `preversion` script inside `package.json` to be able to intercept all `npm version *` commands.
+`easytag` replaces your `preversion` script inside `package.json` to be able to intercept all `npm version *` commands.
 
 ### Usage
 
-`npx-easytag` runs automatically intercepting the classic `npm version *` commands, here are some examples of the default rules for tag naming:
+`easytag` runs automatically intercepting the classic `npm version *` commands, here are some examples of the default rules for tag naming:
 
 ##### Master/Main Branch
 
