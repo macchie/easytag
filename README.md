@@ -1,6 +1,6 @@
 # npx easytag
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/macchie/npx-easytag?style=for-the-badge) ![npm](https://img.shields.io/npm/v/easytag?style=for-the-badge) ![npm](https://img.shields.io/npm/dw/easytag?style=for-the-badge)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/macchie/easytag?style=for-the-badge) ![npm (scoped)](https://img.shields.io/npm/v/@macchie7/easytag?style=for-the-badge) ![npm](https://img.shields.io/npm/dw/@macchie7/easytag?style=for-the-badge)
 
 Easy NPM Versioning & Tag Tool
 

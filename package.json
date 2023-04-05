@@ -1,5 +1,5 @@
 {
-  "name": "easytag",
+  "name": "@macchie7/easytag",
   "version": "1.0.0",
   "description": "Easy NPM Versioning & Tag Tool",
   "bin": {
