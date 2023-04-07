@@ -21,15 +21,6 @@ class EasyTAG {
   static _action;
   static _branchName;
 
-  // sanitize branch name
-  static sanitizeBranchName(_branchName) {
-    return _branchName
-      .replace('/', '-')
-      .replace(' ', '-')
-      .replace('_', '-')
-      .replace('\\', '-');
-  }
-
   // get tag name based on format
   static getTag(_version) {
     const _isMaster = ['master', 'main'].includes(EasyTAG._branchName);
