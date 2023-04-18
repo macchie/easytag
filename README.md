@@ -28,6 +28,15 @@ While using `easytag` tagging through `npx easytag [patch|minor|major]` commands
 
 Inside your NPM project execute:
 
+install it
+
+```bash
+$ npm i -D [ --force ] @macchie7/easytag@latest
+```
+add `--force` in case of legacy dependancy inside the project.
+
+Then init easytag
+
 ```bash
 $ npx @macchie7/easytag --init
 ```
@@ -51,9 +60,9 @@ Edit your `config` inside `package.json` to add extra parameters:
   "config": {
     "easytag": {
       // disable push after tagging
-      "noPush": true, 
+      "noPush": true,
       // master/main branch format (default: v1.2.3)
-      "masterFormat": "{{version}}", 
+      "masterFormat": "{{version}}",
       // others branch format (default: branchname-v1.2.3)
       "branchFormat": "{{branchName}}-{{version}}"
     }
